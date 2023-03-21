@@ -1,0 +1,174 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.toc-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 70px;
+    left: 0;
+}
+
+.toc-header {
+    background: #111;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+}
+
+.toc-heading {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.toc-list {
+    border-radius: 0 100px;
+    background: #fff;
+    margin: 0;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.toc-list-item {
+    list-style-type: none !important;
+}
+
+.toc-list-item:not(:last-child) {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.toc-list-item:last-child {
+    margin-bottom: 0 !important;
+}
+
+.toc-list-item a {
+    position: relative;
+    color: #333 !important;
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none !important;
+}
+
+.toc-list-item a:hover:before {
+    background: #fff;
+}
+
+/* .level-1,
+.level-2,
+.level-3,
+.level-4,
+.level-5,
+.level-6 {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.level-1::before {
+    content: "A.";
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+}
+
+.level-2 a {
+    font-size: 17px;
+}
+
+.level-2::before {
+    content: "1.";
+    font-size: 17px;
+    font-weight: 500;
+    color: #222;
+}
+
+.level-3 {
+    border-bottom: 0;
+    padding-left: 20px;
+}
+
+.level-3 a {
+    font-size: 15px;
+}
+
+.level-3::before {
+    content: "A.";
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 10px;
+}
+
+.level-4 {
+    border-bottom: 0;
+    padding-left: 40px;
+}
+
+.level-4 a {
+    font-size: 14px;
+}
+
+.level-4::before {
+    content: "A.";
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 10px;
+}
+
+.level-5 {
+    border-bottom: 0;
+    padding-left: 60px;
+}
+
+.level-5 a {
+    font-size: 13px;
+    border-bottom: 0;
+    padding-left: 60px;
+}
+
+.level-5::before {
+    content: "A.";
+    font-size: 13px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 10px;
+}
+
+.level-6 {
+    border-bottom: 0;
+    padding-left: 80px;
+}
+
+.level-6 a {
+    font-size: 13px;
+    border-bottom: 0;
+    padding-left: 80px;
+}
+
+.level-6::before {
+    content: "A.";
+    font-size: 13px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 10px;
+} */
